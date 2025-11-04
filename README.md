@@ -109,11 +109,6 @@ Ajouter l'adresse et le nom du projet  :
 Dans le fichier .env mettre uniquement des informations d'exemples car il est commit sur Git et accessible par d'autres utilisateurs
 Créer un fichier .env.local pour la configuration avec les données personnels (DATABASE, SMTP, etc...)
 
-## .env.local
-APP_ENV=dev
-APP_URL=http://blogstudisymfony.local
-TRUSTED_HOSTS='^blogstudisymfony\.local$'
-DATABASE_URL="mysql://root:@127.0.0.1:3306/blogstudibdd?serverVersion=9.3.0&charset=utf8mb4"
 
 
 7. Création des tables de notre Bdd avec Doctrine
